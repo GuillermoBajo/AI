@@ -1,19 +1,19 @@
 # Artificial Intelligence
 
-Este repositorio contiene el trabajo realizado en varias prácticas relacionadas con inteligencia artificial. Los temas principales abordados incluyen la implementación de algoritmos de búsqueda, inferencia probabilística y optimización para resolver problemas clásicos como el 8-puzzle, el problema de los misioneros y caníbales, el problema del lobo, cabra y col, así como las 8-reinas.
+This repository contains the work done on various exercises related to artificial intelligence. The main topics covered include the implementation of search algorithms, probabilistic inference, and optimization to solve classic problems such as the 8-puzzle, the missionaries and cannibals problem, the wolf, goat, and cabbage problem, as well as the 8-queens problem.
 
-## Contenido del repositorio
+## Repository Contents
 
-1. **8-puzzle**: Resolución del problema del 8-puzzle mediante algoritmos de búsqueda ciega y búsqueda informada. Se aplican técnicas como BFS, DFS, A* con heurísticas de fichas descolocadas y Manhattan.
+1. **8-puzzle**: Solving the 8-puzzle problem using blind search and informed search algorithms. Techniques like BFS, DFS, and A\* with heuristics such as misplaced tiles and Manhattan distance are applied.
 
-2. **Misioneros y caníbales / Lobo, Cabra y Col**: Aplicación de diferentes algoritmos de búsqueda para resolver estos problemas clásicos de lógica y planificación. Se evalúan los resultados obtenidos con distintos algoritmos, incluyendo BFS, DFS y búsquedas informadas.
+2. **Missionaries and Cannibals / Wolf, Goat, and Cabbage**: Application of different search algorithms to solve these classic logic and planning problems. The results obtained with various algorithms, including BFS, DFS, and informed searches, are evaluated.
 
-3. **8-reinas**: Resolución del problema de las 8-reinas utilizando algoritmos de búsqueda local como Hill-Climbing, Simulated Annealing y algoritmos genéticos. Se implementan y evalúan las soluciones obtenidas.
+3. **8-queens**: Solving the 8-queens problem using local search algorithms like Hill-Climbing, Simulated Annealing, and Genetic Algorithms. Solutions are implemented and evaluated.
 
-4. **Inferencia probabilística en redes Bayesianas**: Implementación de algoritmos de inferencia probabilística en Python utilizando el entorno del juego Ghost-hunter PACMAN. El objetivo es rastrear fantasmas invisibles en un entorno de videojuegos simulados utilizando técnicas de inferencia en redes bayesianas.
+4. **Probabilistic Inference in Bayesian Networks**: Implementation of probabilistic inference algorithms in Python using the Ghost-hunter PACMAN game environment. The goal is to track invisible ghosts in a simulated video game environment using Bayesian network inference techniques.
 
-## Requerimientos
+## Requirements
 
-- **Java**: El proyecto utiliza Java para implementar los algoritmos de búsqueda y optimización. Asegúrate de tener instalada la versión 1.8 del JDK.
-- **Librerías**: Se utilizan las librerías disponibles en los paquetes `aima.core` y `aima.gui` de la biblioteca AIMA Java.
-- **Python**: La práctica 4 requiere Python. Se recomienda utilizar un entorno local de Python con ANACONDA, que incluye librerías preinstaladas y facilita la ejecución de los programas.
+- **Java**: The project uses Java to implement the search and optimization algorithms. Make sure to have JDK version 1.8 installed.
+- **Libraries**: The libraries from the `aima.core` and `aima.gui` packages of the AIMA Java library are used.
+- **Python**: Exercise 4 requires Python. It is recommended to use a local Python environment with ANACONDA, which includes pre-installed libraries and makes running the programs easier.
